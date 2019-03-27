@@ -31,16 +31,16 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`todocli hello`](#todocli-hello)
+* [`todocli add`](#todocli-add)
 * [`todocli help [COMMAND]`](#todocli-help-command)
 
-## `todocli hello`
+## `todocli add`
 
 Describe the command here
 
 ```
 USAGE
-  $ todocli hello
+  $ todocli add
 
 OPTIONS
   -n, --name=name  name to print
@@ -50,7 +50,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/ColinFendrick/todocli/blob/v0.0.0/src/commands/hello.js)_
+_See code: [src/commands/add.js](https://github.com/ColinFendrick/todocli/blob/v0.0.0/src/commands/add.js)_
 
 ## `todocli help [COMMAND]`
 
