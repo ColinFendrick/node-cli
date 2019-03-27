@@ -74,18 +74,18 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6
 
 ## `todocli remove`
 
-Describe the command here
+Removes a task by id
 
 ```
 USAGE
   $ todocli remove
 
 OPTIONS
-  -n, --name=name  name to print
+  -n, --id=id  (required) task id
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Permanently erases a task
 ```
 
 _See code: [src/commands/remove.js](https://github.com/ColinFendrick/todocli/blob/v0.0.0/src/commands/remove.js)_
