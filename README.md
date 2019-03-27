@@ -31,26 +31,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`todocli add`](#todocli-add)
 * [`todocli help [COMMAND]`](#todocli-help-command)
-
-## `todocli add`
-
-Describe the command here
-
-```
-USAGE
-  $ todocli add
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/add.js](https://github.com/ColinFendrick/todocli/blob/v0.0.0/src/commands/add.js)_
+* [`todocli show`](#todocli-show)
 
 ## `todocli help [COMMAND]`
 
@@ -68,4 +50,22 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
+
+## `todocli show`
+
+Describe the command here
+
+```
+USAGE
+  $ todocli show
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/show.js](https://github.com/ColinFendrick/todocli/blob/v0.0.0/src/commands/show.js)_
 <!-- commandsstop -->
