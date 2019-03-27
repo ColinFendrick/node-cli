@@ -1,5 +1,5 @@
 const {Command, flags} = require('@oclif/command')
-const {Todo} = require('../db')
+const {Todo} = require('../../db')
 
 class AddCommand extends Command {
   async run() {
@@ -19,7 +19,7 @@ Adds a new todo to the existing list
 `
 
 AddCommand.flags = {
-  name: flags.string({char: 'n', description: 'task'}),
+  task: flags.string({char: 'n', description: 'task'}),
 }
 
 module.exports = AddCommand

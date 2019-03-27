@@ -1,6 +1,6 @@
 const {Command} = require('@oclif/command')
 const chalk = require('chalk')
-const {Todo} = require('../db')
+const {Todo} = require('../../db')
 
 class ShowCommand extends Command {
   async run() {
